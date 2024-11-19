@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 //definir la url base de la API
 public class DatosAPI {
-    private  String URL_BASE="https://gutendex.com/books";
+    private final String URL_BASE="https://gutendex.com/books";
 
     //describir URL de busqueda
     public String obtenerDatosAPI(String titulo){
